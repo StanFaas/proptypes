@@ -1,24 +1,28 @@
 {
   "name": "@stanfaas/proptypes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A NodeJS script that helps you adding missing and removing unused PropTypes in your ReactJS projects that use ESLint.",
+  "author": "StanFaas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StanFaas/proptypes.git"
-  },
+  "repository": "StanFaas/proptypes",
   "keywords": [
     "NodeJS",
     "PropTypes",
-    "ReactJS"
+    "ReactJS",
+    "StanFaas"
   ],
-  "author": "StanFaas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StanFaas/proptypes/issues"
   },
-  "homepage": "https://github.com/StanFaas/proptypes#readme"
+  "bin": {
+    "proptypes": "./bin/proptypes.js"
+  },
+  "homepage": "https://github.com/StanFaas/proptypes",
+  "dependencies": {
+    "is-git-clean": "^1.1.0"
+  }
 }
