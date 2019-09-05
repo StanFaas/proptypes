@@ -1,5 +1,4 @@
 const fs = require('fs');
-const chalk = require('chalk');
 
 const removePropTypes = pathAndMessageArr => {
   new Promise((resolve, reject) => {
