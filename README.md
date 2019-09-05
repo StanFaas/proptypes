@@ -57,7 +57,7 @@ Another important thing you need to do, if you don't have them already, is to ad
 "react/prop-types": 1,
 ```
 
-This makes sure your linter will show warnings when props are not set as proptypes and when proptypes are not used. If you want, you can also change the 1 to 2. It will then give you an error instead of an warning.
+This makes sure your linter will show warnings when props are not set as PropTypes and when PropTypes are not used. If you want, you can also change the 1 to 2. It will then give you an error instead of an warning.
 
 ### Prepare ESLint report
 
@@ -88,9 +88,9 @@ To add missing proptypes you only have to run:
 
 `./node_modules/.bin/proptypes add`
 
-### Remove unused proptypes
+### Remove unused PropTypes
 
-To remove unused proptypes you run:
+To remove unused PropTypes you run:
 
 `./node_modules/.bin/proptypes remove`
 
@@ -101,7 +101,7 @@ If you don't want that, then pass the `force` argument to the CLI like the follo
 
 `./node_modules/.bin/proptypes force`
 
-This will add missing proptypes and forces the CLI to continue, disregarding the fact that your git directory is not clean.
+This will add missing PropTypes and forces the CLI to continue, disregarding the fact that your git directory is not clean.
 
 ## <a name="filing-issues"></a>Filing Issues
 
