@@ -5,6 +5,7 @@
   "author": "StanFaas",
   "main": "index.js",
   "scripts": {
+    "eslint-report": "echo \"hello: hello you motherfucker\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "StanFaas/proptypes",

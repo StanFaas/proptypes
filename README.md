@@ -1,4 +1,4 @@
-![npm (scoped)](https://img.shields.io/npm/v/@stanfaas/proptypes?style=flat-square)
+[![npm (scoped)](https://img.shields.io/npm/v/@stanfaas/proptypes?style=flat-square)](https://www.npmjs.com/package/@stanfaas/proptypes)
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@stanfaas/proptypes?label=install%20size&style=flat-square)
 
 # proptypes
@@ -59,18 +59,6 @@ Another important thing you need to do, if you don't have them already, is to ad
 
 This makes sure your linter will show warnings when props are not set as PropTypes and when PropTypes are not used. If you want, you can also change the 1 to 2. It will then give you an error instead of an warning.
 
-### Prepare ESLint report
-
-After installing and setting up the things I've stated above, you should run the following commands from your project's root directory in your terminal.
-
-`yarn eslint-report`
-
-or
-
-`npm run eslint-report`
-
-This will create the JSON formatted file that we've setup earlier. Proptypes needs this to be able to parse.
-
 ## <a name="usage"></a>Usage
 
 This CLI is not complicated at all. It only has add and remove functionality.
@@ -87,6 +75,8 @@ You'll then get the choice to either add missing PropTypes, or remove redundant 
 To add missing proptypes you only have to run:
 
 `./node_modules/.bin/proptypes add`
+
+**Be aware:** This scripts add the missing PropTypes with a type of `string`. Be sure to manually fix this afterwards while running through your project.
 
 ### Remove unused PropTypes
 
